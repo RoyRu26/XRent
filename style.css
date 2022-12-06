@@ -15,11 +15,11 @@
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: 0vh;
     background-color: black;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-around;
 }
 #divthree
@@ -30,48 +30,50 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .hero-header
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:80px;
+    font-size:6vw;
     color: rgb(57, 57, 57);
     margin-bottom: 20px;
+    margin-top: 20vh;
 }
 #hero
 {
-    font-size: xx-large;
+    font-size: 2vw;
     color: rgb(173, 173, 173);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    margin: 0vh;
 }
 #footer
 {
-    background-color: black;
+    background-image: linear-gradient(black, rgb(48, 3, 3));
     height: 100vh;
     width: 100vw;
 }
 .car
 {
-    height: 110px;
-    width: 180px;
-    padding: 110px 150px;
-    display: inline-block;
+    height: 13vh;
+    width: 10vw;
+    padding: 7vw 22vh;
     border-radius: 12px;
     text-align: center;
     color: transparent;
-    margin-top: 50px;  
-    margin-left: 50px;  
-    margin-right: 50px;  
-    margin-bottom: 50px;  
+    margin: 3vw 3vw;
     transition-duration: 0.4s;
     cursor: pointer;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(162, 162, 162);
-    border:solid;
+    border:0.3vw solid white;
     display: flex;
+    background-size: cover;
+    justify-content: center;
 }
 .car:hover
 {
@@ -80,18 +82,21 @@
     font-weight: bold;
     text-align:center;
     justify-content: center;
-    font-size: x-large;
+    font-size: 3vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(113, 113, 113);
+    text-shadow: 2px 2px 5px black;
 }
 .car:active
 {
     background-color: rgb(49, 49, 49);
-    box-shadow: 0 5px #666;
+    box-shadow: 0 5px rgb(183, 183, 183);
     transform: translateY(4px);
 }
 #buttontop
 {
     display: flex;
+    margin-top: 15vh;
 }
 #buttonbot
 {
@@ -99,42 +104,96 @@
 }
 .logo
 {
-    height: 60px;
-    width: 60px;
-    margin: 60px;
+    height: 6vh;
+    width: 6vh;
+    margin: 6vw;
     display: inline-block;
 }
 #interior
 {
-    height: 300px;
-    width: 450px;
+    height: 27vw;
+    width: 37vw;
     border-radius: 19px;
-    display: inline-block;
-    border: 2px solid rgb(218, 0, 0);
-    margin-left: 110px;
-    margin-top: 220px;
+    border: 0.2vw solid rgb(218, 0, 0);
+    margin-top: 25vh;
 }
-    #textbox
+#textbox
 {
     display: flex;
     height: 30vh;
     width: 30vw;
     flex-direction: column;
-    margin-top: 220px;
-    margin-left: 360px;
+    margin-top: 23.5vh;
 }
 #text
 {
-    font-size: x-large;
+    font-size: 4vw;
     color: rgb(173, 173, 173);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 #stext
 {
-    font-size: 16px;
+    font-size: 1.2vw;
     color: rgb(215, 215, 215);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 50px;
-
+    text-shadow: 2px 2px 5px black;
+}
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #divthree
+    {
+        flex-direction: column;
+        justify-content:space-around;
+        align-content: center;
+    }
+    #buttontop
+    {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    #buttonbot
+    {
+        flex-direction: column;
+    }
+    #textbox
+    {
+        margin-top: 0px;
+        margin-left: 25vw;
+        height: 30vh;
+        width: 50vw;
+    }
+    #text
+    {
+        font-size: 6vw;
+    }
+    #stext
+    {
+        font-size: 2vw;
+    }
+    #interior
+    {
+        margin-top: 10vh;
+        height: 50vw;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+}
+@media screen and (max-width: 2400px)
+{
+    #buttontop
+    {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    #buttonbot
+    {
+        flex-direction: column;
+    }
 }
