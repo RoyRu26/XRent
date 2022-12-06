@@ -1,0 +1,140 @@
+#divone
+{
+    background-image: url("https://digitalsynopsis.com/wp-content/uploads/2014/06/supercar-wallpapers-lamborghini-1.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    background-color: black;
+    display:inline-block;
+}
+#divtwo
+{
+    background-image: url("https://www.hdcarwallpapers.com/walls/aston_martin_one_77_rear-wide.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#divthree
+{
+    background-image: url("https://i.pinimg.com/originals/6f/5d/b8/6f5db8ebf7632f4ca8288145d813eda6.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.hero-header
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80px;
+    color: rgb(57, 57, 57);
+    margin-bottom: 20px;
+}
+#hero
+{
+    font-size: xx-large;
+    color: rgb(173, 173, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#footer
+{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.car
+{
+    height: 110px;
+    width: 180px;
+    padding: 110px 150px;
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+    color: transparent;
+    margin-top: 50px;  
+    margin-left: 50px;  
+    margin-right: 50px;  
+    margin-bottom: 50px;  
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(162, 162, 162);
+    border:solid;
+    display: flex;
+}
+.car:hover
+{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-align:center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.car:active
+{
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#buttontop
+{
+    display: flex;
+}
+#buttonbot
+{
+    display: flex;
+}
+.logo
+{
+    height: 60px;
+    width: 60px;
+    margin: 60px;
+    display: inline-block;
+}
+#interior
+{
+    height: 300px;
+    width: 450px;
+    border-radius: 19px;
+    display: inline-block;
+    border: 2px solid rgb(218, 0, 0);
+    margin-left: 110px;
+    margin-top: 220px;
+}
+    #textbox
+{
+    display: flex;
+    height: 30vh;
+    width: 30vw;
+    flex-direction: column;
+    margin-top: 220px;
+    margin-left: 360px;
+}
+#text
+{
+    font-size: x-large;
+    color: rgb(173, 173, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#stext
+{
+    font-size: 16px;
+    color: rgb(215, 215, 215);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+
+}
