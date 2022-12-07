@@ -145,6 +145,7 @@
 {
     display: flex;
     width: 30vw;
+    height: 30vh;
     flex-direction: column;
     margin-top: 23.5vh;
 }
@@ -174,6 +175,11 @@
     {
         justify-content:center;
         align-content: center;
+        flex-direction: column;
+    }
+    #divtwo
+    {
+        height: unset;
     }
     #buttontop
     {
@@ -189,6 +195,8 @@
         margin-top: 0px;
         margin-left: 5vw;
         width: 80vw;
+        height:unset;
+        flex-direction: column;
     }
     #text
     {
@@ -204,7 +212,7 @@
         height: 50vw;
         width: 60vw;
         margin-left: 20vw;
-        margin-bottom: 0px;
+        margin-bottom: 5vh;
     }
 }
 @media screen and (max-width: 1200px)
