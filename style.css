@@ -55,6 +55,30 @@
     height: 100vh;
     width: 100vw;
 }
+#sport
+{
+    background-image: url("https://cdn.shopify.com/s/files/1/2784/4966/products/Ferrari_488_GTB_-_M5853-RED-3_4000x2677_crop_center.jpg?v=1611251195");
+}
+#suv
+{
+    background-image: url("https://images.hdqwalls.com/wallpapers/lamborghini-urus-side-view-4k-7b.jpg");
+}
+#convertible
+{
+    background-image: url("https://cdn.shopify.com/s/files/1/2784/4966/products/M5945-GTS-1-Ferrari812SuperfastGTS1.8Scale-Website-LeftSide_4000x2677_crop_center.jpg?v=1605787847");
+}
+#minivan
+{
+    background-image: url("https://w0.peakpx.com/wallpaper/889/870/HD-wallpaper-2015-mercedes-benz-v-class-side-car.jpg");
+}
+#luxury
+{
+    background-image: url("https://www.classicdriver.com/sites/default/files/import/articlesv2/images/_uk/16767/rolls_royce_wraith_geneva_2013_01pop.jpg");
+}
+#offroad
+{
+    background-image: url("https://brixtonforged.com/wp-content/uploads/2022/05/brixton-forged-black-mercedes-g63-amg-1.jpg");
+}
 .car
 {
     height: 13vh;
@@ -183,9 +207,10 @@
         height: 50vw;
         width: 60vw;
         margin-left: 20vw;
+        margin-bottom: 0px;
     }
 }
-@media screen and (max-width: 2400px)
+@media screen and (max-width: 1200px)
 {
     #buttontop
     {
