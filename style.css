@@ -144,7 +144,6 @@
 #textbox
 {
     display: flex;
-    height: 30vh;
     width: 30vw;
     flex-direction: column;
     margin-top: 23.5vh;
@@ -173,8 +172,7 @@
     }
     #divthree
     {
-        flex-direction: column;
-        justify-content:space-around;
+        justify-content:center;
         align-content: center;
     }
     #buttontop
@@ -189,9 +187,8 @@
     #textbox
     {
         margin-top: 0px;
-        margin-left: 25vw;
-        height: 30vh;
-        width: 50vw;
+        margin-left: 5vw;
+        width: 80vw;
     }
     #text
     {
